@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Use Relative Layout instead of default constrain layout.-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ChooseModel">
+
+
+    <Button
+        android:id="@+id/predict_P"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/predict_V"
+        android:layout_alignRight="@+id/predict_V"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginBottom="451dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="PackedItem"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/predict_V"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="352dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Vegetables"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/predict_F"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/predict_V"
+        android:layout_alignRight="@+id/predict_V"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginBottom="241dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Fruit"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>
